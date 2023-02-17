@@ -28,15 +28,17 @@ Do not **move or rename any files** in this project. The website's source files 
 
 * [ ] Here are some event types you could try to use:
   * [ ] `mouseover`
-  * [ ] `keydown`
-  * [ ] `wheel`
-  * [ ] `load`
+  * [x] `keydown`
+  * [x] `wheel`
+  * [x] `load`
   * [ ] `focus`
-  * [ ] `resize`
+  * [x] `resize`
   * [ ] `scroll`
   * [ ] `select`
-  * [ ] `dblclick`
+  * [x] `dblclick`
   * [ ] `drag / drop`
+  * ====================
+  * [x] `click`
 
 Note: Drag and drop is a bit more advanced than the others. It's not actually a single type of event but several types that need to work together.
 
