@@ -92,6 +92,18 @@ docBody.addEventListener("keydown", (event) => {
   }
 }); 
 
+docBody.addEventListener("keydown", () => {
+  console.log(`You just released a key into the wild...`);
+});
+
+docBody.addEventListener("copy", () => {
+  console.log(`You just copied some text...`);
+});
+
+docBody.addEventListener("cut", () => {
+  console.log(`You just tried to cut some text...`);
+});
+
 window.addEventListener("load", () => {
   console.log("The page has loaded...");
 }, false);

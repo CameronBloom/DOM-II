@@ -27,7 +27,7 @@ Do not **move or rename any files** in this project. The website's source files 
 * [ ] Using your [index.js file](src/index.js), create [event listeners](https://developer.mozilla.org/en-US/docs/Web/Events) of at least 10 _different_ types. You must Use your creativity to make the Fun Bus site more interactive. For example you could change colors, animate objects, add DOM elements, remove them, etc.
 
 * [ ] Here are some event types you could try to use:
-  * [ ] `mouseover`
+  * [x] `mouseover`
   * [x] `keydown`
   * [x] `wheel`
   * [x] `load`
@@ -39,13 +39,16 @@ Do not **move or rename any files** in this project. The website's source files 
   * [ ] `drag / drop`
   * ====================
   * [x] `click`
+  * [x] `keydown`
+  * [x] `copy`
+  * [x] `cut`
 
 Note: Drag and drop is a bit more advanced than the others. It's not actually a single type of event but several types that need to work together.
 
 ### Use preventDefault
 
-* [ ] Find a usecase for preventDefault. For example, you could prevent a link from navigating when clicked, or to navigate somewhere surprising.
+* [x] Find a usecase for preventDefault. For example, you could prevent a link from navigating when clicked, or to navigate somewhere surprising.
 
 ## Submission Format
 
-* [ ] Submit project using Codegrade, as per the instructions in the learning platform.
+* [x] Submit project using Codegrade, as per the instructions in the learning platform.
