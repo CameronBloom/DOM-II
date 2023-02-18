@@ -128,6 +128,11 @@ for (let destination of docDestinations) {
     destination.style.textAlign = "center";
     destination.style.border = "solid 1px black";
     destination.style.padding = "4px";
+    destination.style.display = "flex"
+    destination.style.flexDirection = "column";
+    destination.style.justifyContent = "center";
+    destination.style.alignItems = "center";
+
   });
   destination.addEventListener("mouseleave", () => {
     setTimeout(() => {
